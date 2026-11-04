@@ -1,3 +1,5 @@
+<img src="./shan-shui-banner.png" alt="산수화 배너" width="100%">
+
 # 👋 Hi there
 
 I'm lilamaris.
