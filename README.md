@@ -1,3 +1,5 @@
+<img src="./shan-shui-banner.png" alt="산수화 배너" width="100%">
+
 # lilamaris
 
 내 서버에 직접 얹어 쓸 도구를 만들며, 백엔드 등뼈를 주로 깁니다.
