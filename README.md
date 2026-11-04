@@ -1,5 +1,7 @@
 <img src="./shan-shui-banner.png" alt="산수화 배너" width="100%">
 
+<samp>myunggyun</samp> · <samp>lilamaris</samp> · <samp>Kirari</samp>
+
 내 서버에 직접 얹어 쓸 도구를 만들며, 백엔드 등뼈를 주로 깁니다.
 지금은 [lilserve](https://github.com/lilamaris/lilserve) 모노레포 위에 좌석 예약·게시판 서비스 [lilboard](https://github.com/lilamaris/lilboard)를 얹는 중입니다.
 
