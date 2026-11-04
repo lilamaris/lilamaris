@@ -10,4 +10,6 @@
 
 <samp>Arch Linux · git · Neovim · Alacritty</samp>
 
-<samp>[blog](https://blog.lilamaris.kr)</samp>&ensp;·&ensp;<samp>[articles](https://github.com/lilamaris/articles)</samp>&ensp;·&ensp;<samp>[dotfiles](https://github.com/lilamaris/dotfiles)</samp>
+<samp>[blog](https://blog.lilamaris.kr) updated <!-- LATEST-POST:START -->2026-06-08<!-- LATEST-POST:END --></samp>
+
+<samp>[articles](https://github.com/lilamaris/articles)</samp>&ensp;·&ensp;<samp>[dotfiles](https://github.com/lilamaris/dotfiles)</samp>
