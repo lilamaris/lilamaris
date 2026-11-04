@@ -1,13 +1,17 @@
-<img src="./shan-shui-banner.png" alt="산수화 배너" width="100%">
+<img src="./shan-shui-banner.png" alt="Banner" width="100%">
 
-# 👋 Hi there
+<samp>김명균(Kim Myung Gyun)</samp> <samp><sub>lilamaris</sub></samp>
 
-I'm lilamaris.
-I enjoy creating apps related to my interests.
-## ✨ Techs & Tools I work with:
+---
 
-![Skills](https://skills.syvixor.com/api/icons?i=svelte,nextjs,reactjs,tailwindcss,ts,prisma,postgresql,python,fastapi,cpp,neovim,git,pnpm,arch,alacritty&perline=8)
+<samp>Spring Boot · PostgreSQL · Svelte Kit · Python · C/C++</samp>
 
-### 📖 Interested in or studying:
-![Skills](https://skills.syvixor.com/api/icons?i=rust,astro,ansible&perline=8)
- 
+<samp>Arch Linux · git · Neovim · Alacritty</samp>
+
+</br>
+
+<samp>[blog](https://blog.lilamaris.kr) <sub>updated <!-- LATEST-POST:START -->2026-06-08<!-- LATEST-POST:END --></sub></samp>&ensp;·&ensp;<samp>[articles](https://github.com/lilamaris/articles)</samp>&ensp;·&ensp;<samp>[dotfiles](https://github.com/lilamaris/dotfiles)</samp>&ensp;·&ensp;<samp>[mail](mailto:lilamaris.dev@gmail.com)</samp>
+
+---
+
+<samp>Banner generated with [山水 (Shan Shui)](https://github.com/LingDong-/shan-shui-inf) by [Lingdong Huang](https://github.com/LingDong-).</samp>

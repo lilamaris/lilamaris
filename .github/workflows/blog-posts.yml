@@ -1,0 +1,26 @@
+name: 최근 글 날짜 동기화 (blog RSS)
+
+# README의 LATEST-POST 마커 사이를 "최신 글 날짜 한 줄"로 교체합니다.
+# 주의: schedule 트리거는 default branch(main)에 있는 워크플로만 실행됩니다.
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  latest-date:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_name: "LATEST-POST"
+          feed_list: "https://blog.lilamaris.kr/rss.xml"
+          max_post_count: 1
+          template: "$date"
+          date_format: "UTC:yyyy-mm-dd"
+          commit_message: "docs: 최신 글 날짜 갱신"
