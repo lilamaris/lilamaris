@@ -16,8 +16,7 @@
 | --- | --- |
 | [lilserve](https://github.com/lilamaris/lilserve) | 개인 서비스 모노레포. Gradle convention plugin으로 Spring·PostgreSQL 모듈을 조립 |
 | [lilboard](https://github.com/lilamaris/lilboard) | MSA를 목표로 쓰는 게시판 서비스. 멀티 모듈 + CI |
-| [lauth](https://github.com/lilamaris/lauth) | 개인 서비스들이 같이 쓰는 인증·인가 서버. Refresh Token 세션 연장 |
-| [lauth-client](https://github.com/lilamaris/lauth-client) · [cozyr-client](https://github.com/lilamaris/cozyr-client) | lauth에 붙이는 TypeScript 클라이언트 |
+| [lauth-client](https://github.com/lilamaris/lauth-client) · [cozyr-client](https://github.com/lilamaris/cozyr-client) | 개인 프로젝트에 붙이는 TypeScript 클라이언트 (인증 서버 연동) |
 | [csqlite](https://github.com/lilamaris/csqlite) | Build your own X — C로 만드는 DB |
 | [lilamaris-infra](https://github.com/lilamaris/lilamaris-infra) · [quickshell](https://github.com/lilamaris/quickshell) | 서버 인프라 설정 · QML 데스크톱 셸 설정 |
 | [stockwolf](https://github.com/lilamaris/stockwolf) | 주문·결제 Spring MSA 학습 프로젝트 |
@@ -36,9 +35,9 @@
 ## 최근 글
 
 <!-- BLOG-POST-LIST:START -->
-- [SWEA 1249, 보급로](https://blog.lilamaris.kr/blog/ps-%ED%9A%8C%EA%B3%A0/sw-expert-academy/swea-1249-%EB%B3%B4%EA%B0%95%EB%A1%9C/) — 2026-06-08
+- [SWEA 1249, 보급로](https://blog.lilamaris.kr/blog/ps-%ED%9A%8C%EA%B3%A0/sw-expert-academy/swea-1249-%EB%B3%B4%EA%B8%89%EB%A1%9C/) — 2026-06-08
 - [BOJ 21318, 피아노 체조](https://blog.lilamaris.kr/blog/ps-%ED%9A%8C%EA%B3%A0/baekjoon-online-judge/boj-21318-%ED%94%BC%EC%95%84%EB%85%B8-%EC%B2%B4%EC%A1%B0/) — 2026-04-15
-- [BOJ 11967, 불 켜기](https://blog.lilamaris.kr/blog/ps-%ED%9A%8C%EA%B3%A0/baekjoon-online-judge/boj-11967-%EB%B6%88-%EC%BC%80%EA%B8%B0/) — 2026-04-08
+- [BOJ 11967, 불 켜기](https://blog.lilamaris.kr/blog/ps-%ED%9A%8C%EA%B3%A0/baekjoon-online-judge/boj-11967-%EB%B6%88-%EC%BC%9C%EA%B8%B0/) — 2026-04-08
 <!-- BLOG-POST-LIST:END -->
 
 ## 활동 (GitHub 실측)
