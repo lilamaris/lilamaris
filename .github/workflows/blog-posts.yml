@@ -1,26 +1,26 @@
-name: 최근 글 동기화 (blog RSS)
+name: 최근 글 날짜 동기화 (blog RSS)
 
-# 프로필 README의 "최근 글" 섹션을 RSS로 자동 갱신.
-# 주의: schedule 트리거는 **default branch(main)에 존재하는 워크플로만** 실행된다.
-# 그래서 이 파일은 브랜치에서 리뷰한 뒤 main에 병합해야 실제로 돈다.
+# README의 LATEST-POST 마커 사이를 "최신 글 날짜 한 줄"로 교체합니다.
+# 주의: schedule 트리거는 default branch(main)에 있는 워크플로만 실행됩니다.
 on:
   schedule:
-    - cron: "0 3,15 * * *"
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  blog-posts:
+  latest-date:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: recent posts
-        uses: gautamkrishnar/blog-post-workflow@v1
+      - uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          comment_tag_name: "BLOG-POST-LIST"
+          comment_tag_name: "LATEST-POST"
           feed_list: "https://blog.lilamaris.kr/rss.xml"
-          max_post: 4
-          commit_message: "docs: 최근 글 자동 갱신"
+          max_post_count: 1
+          template: "$date"
+          date_format: "UTC:yyyy-mm-dd"
+          commit_message: "docs: 최신 글 날짜 갱신"
